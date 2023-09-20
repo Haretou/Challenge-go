@@ -6,7 +6,7 @@ import (
     "os/exec"
 )
 
-func main() {
+func AfficherMenu() {
     clearScreen()
     fmt.Println("...!")
 
@@ -35,7 +35,7 @@ func main() {
 }
 
 //Reset de la fenetre 
-func clearScreen() {
+func ClearAffichage() {
     cmd := exec.Command("clear")
     cmd.Stdout = os.Stdout
     cmd.Run()
