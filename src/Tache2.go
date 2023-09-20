@@ -12,14 +12,14 @@ type Player struct {
     Inventory      []string
 }
 
-func main() {
+func CréationPerso() {
     // Création du personnage
     Player := Player{
-        Name:             "TonPere",
-        Classe:          "Guerrier",
-        Level:          10,
-        MaxHealth:  100,
-        Health: 100,
+        Name:            	"TonPere",
+        Classe:         	"Guerrier",
+        Level:          	10,
+        MaxHealth:  		100,
+        Health: 			100,
         Inventory:      []string{"Épée", "Armure", "Potion de vie "},
     }
     // Afficher les informations de Player

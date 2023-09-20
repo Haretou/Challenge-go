@@ -4,10 +4,9 @@ package main
 type Playerr struct {
 	// attributs
     Name string
-    Gender string
     Classe string
     Level int // permet d'augmenter toutes les autre stats ( sauf Money ) en montant 
-    Health int
+    MaxHealth int
     Damage int
     Def int // baisse les dégats subit en fonction de valeur de cette variable
     Money  int
