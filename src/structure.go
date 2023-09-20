@@ -1,7 +1,7 @@
 package main
 
 // Structure pour représenter un personnage de MMORPG
-type Player struct {
+type Playerr struct {
 	// attributs
     Name string
     Gender string

@@ -7,7 +7,7 @@ import (
 )
 
 func AfficherMenu() {
-    clearScreen()
+    ClearAffichage()
     fmt.Println("...!")
 
     for {

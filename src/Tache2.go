@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // Définir la structure Personnage
-type Personnage struct {
+type Player struct {
     Name            string
     Classe          string
     Level           int
@@ -12,9 +12,9 @@ type Personnage struct {
     Inventory      []string
 }
 
-func main2() {
+func main() {
     // Création du personnage
-    Player := Personnage{
+    Player := Player{
         Name:             "TonPere",
         Classe:          "Guerrier",
         Level:          10,
