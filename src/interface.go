@@ -21,7 +21,7 @@ func accessInventory(inventory []InventoryItem) {
 	fmt.Println("0. Retour au menu précédent")
 }
 
-func main() {
+func moe() {
 	// Exemple d'inventaire
 	inventory := []InventoryItem{
 		{"Potion de vie", "Rend 50 points de vie"},
@@ -34,7 +34,8 @@ func main() {
 		fmt.Println("Menu principal :")
 		fmt.Println("1. Play")
 		fmt.Println("2. Inventaire")
-		fmt.Println("3. Quitter")
+		fmt.Println("3. Marchand")
+		fmt.Println("4. Quitter")
 
 		var choice int
 		fmt.Print("Choisissez une option : ")
@@ -51,6 +52,8 @@ func main() {
 			fmt.Println("Appuyez sur Entrée pour continuer...")
 			fmt.Scanln()
 		case 3:
+			fmt.Println("Que voulez vous acheter ? \n 1.Potion de vie : Gratuit \n 2.Potion de poison : 5 P.o \n 3.épée en fer : 20 P.o \n 4.Quitter ")
+		case 4:
 			// Quitter le programme
 			fmt.Println("Au revoir !")
 			return

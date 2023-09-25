@@ -12,15 +12,15 @@ type Player struct {
     Inventory      []string
 }
 
-func CréationPerso() {
+func CreationPerso() {
     // Création du personnage
     Player := Player{
-        Name:            	"TonPere",
-        Classe:         	"Guerrier",
-        Level:          	10,
-        MaxHealth:  		100,
-        Health: 			100,
-        Inventory:      []string{"Épée", "Armure", "Potion de vie "},
+        Name:               "TonPere",
+        Classe:             "Guerrier",
+        Level:              10,
+        MaxHealth:          100,
+        Health:             100,
+        Inventory:      []string{"Épée", "Armure", "Potion de vie"},
     }
     // Afficher les informations de Player
     fmt.Printf("Name: %s\n", Player.Name)
