@@ -36,15 +36,16 @@ func main() {
 			fmt.Println("Option invalide. Veuillez réessayer.")
 		}
 	}
+
 }
 
 
 func Lors() {
 	fmt.Println("Bienvenue dans le monde Foresta")
 	time.Sleep(time.Second * 2)
-	fmt.Println("Le diable ????? envoilla ses soldats à la conquête du pays.")
+	fmt.Println("Le diable Abdela envoilla ses soldats à la conquête du pays.")
 	time.Sleep(time.Second * 2)
-	fmt.Println("Un jour un jeune homme aux nom ???? entendit une voie qui lui dit")
+	fmt.Println("Un jour un jeune homme aux nom Noobie entendit une voie qui lui dit")
 	time.Sleep(time.Second * 2)
 	fmt.Println("tu es l'héritier qui sauvera le pays et triomphera du diable. ")
 	time.Sleep(time.Second * 2)
@@ -62,10 +63,17 @@ func play() {
 }
 func Market(){
 	fmt.Println("Bienvenue")
-	fmt.Println("Que voulez vous acheter ?\n potion de vie : Free \n potion de poison : 5 Po \n épée en fer : 10 Po")
+	fmt.Println("Que voulez vous acheter ?")
+	fmt.Println("Potion de vie : Free")
+	time.Sleep(time.Second * 2)
+	fmt.Println("Potion de poison : 5 Po")
+	time.Sleep(time.Second * 2)
+	fmt.Println("épé en fer : 10 PO")
 	fmt.Scanln()
 }
 func Enemy() {
+	fmt.Println("History")
+	time.Sleep(time.Second * 2)
 	fmt.Println("Noms: Guerrier \n Point de vie: 140 \n damage: 20 \n défense: 10")
 	time.Sleep(time.Second * 2)
 	fmt.Println("Noms: Pretre \n Point de vie: 500 \n damage: 15 \n défense: 30")
