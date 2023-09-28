@@ -39,13 +39,13 @@ func main() {
 func Lore() {
 	fmt.Println("Bienvenue dans le monde Foresta")
 	time.Sleep(time.Second * 1)
-	fmt.Println("Le diable Abdela envoilla ses soldats à la conquête du pays.")
+	fmt.Println("Le diable Abdela envoya ses soldats à la conquête du pays.")
 	time.Sleep(time.Second *1 )
-	fmt.Println("Un jour un jeune homme aux nom Noobie entendit une voie qui lui dit")
+	fmt.Println("Un jour un jeune homme aux nom Lachips entendit une voie qui lui dit")
 	time.Sleep(time.Second * 1)
-	fmt.Println("tu es l'héritier qui sauvera le pays et triomphera du diable. ")
+	fmt.Println("tu est celui qui sauvera le pays et triomphera du diable. ")
 	time.Sleep(time.Second * 1)
-	fmt.Println("Il prend l'équipement et il va sauver son pays et tuer le diable.")
+	fmt.Println("Il pris son équipement et parti  sauver son pays et tuer le Abdela.")
 	fmt.Scanln()
 }
 

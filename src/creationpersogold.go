@@ -70,13 +70,12 @@ func new() {
 	economie := Economie{Or: 100}
 	fmt.Printf("Or disponible: %d\n", economie.Or)
 	
-	// // Simulation d'une transaction
-	// montant := 30
-	// if economie.Or >= montant {
-	// 	economie.Or -= montant
-	// 	fmt.Printf("Achat réussi. Or restant: %d\n", economie.Or)
-	// } else {
-	// 	fmt.Println("Transaction échouée. Pas assez d'or.")
-	// }
+	// Simulation d'une transaction
+	montant := 30
+	if economie.Or >= montant {
+		economie.Or -= montant
+		fmt.Printf("Achat réussi. Or restant: %d\n", economie.Or)
+	} else {
+		fmt.Println("Transaction échouée. Pas assez d'or.")
+	}
 }
-
