@@ -4,6 +4,7 @@ import (
     "fmt"
     "Player"
 )
+
 func takePot() {
     if Player.Health < Player.MaxHealth {
         Player.Health += 50 

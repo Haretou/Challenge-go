@@ -69,7 +69,7 @@ func main() {
 	// Système économique
 	economie := Economie{Or: 100}
 	fmt.Printf("Or disponible: %d\n", economie.Or)
-
+	
 	// // Simulation d'une transaction
 	// montant := 30
 	// if economie.Or >= montant {
