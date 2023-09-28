@@ -6,9 +6,9 @@ import (
 
 // Définition des classes de personnages
 type Personnage struct {
-	Nom     string
-	PointDeVie  int
-	Attaque int
+	Nom        string
+	PointDeVie int
+	Attaque    int
 }
 
 type Guerrier struct {
@@ -26,9 +26,9 @@ type Chasseur struct {
 // Fonction pour créer un nouveau personnage
 func NouveauPersonnage(nom string, pointDeVie, attaque int) Personnage {
 	return Personnage{
-		Nom:     nom,
-		PointDeVie:  pointDeVie,
-		Attaque: attaque,
+		Nom:        nom,
+		PointDeVie: pointDeVie,
+		Attaque:    attaque,
 	}
 }
 
@@ -51,7 +51,7 @@ type Economie struct {
 	Or int
 }
 
-func main() {
+func new() {
 	// Création de quelques personnages
 	guerrier := Guerrier{NouveauPersonnage("Guerrier", 140, 20)}
 	pretre := Pretre{NouveauPersonnage("Pretre", 1000, 15)}
@@ -79,3 +79,4 @@ func main() {
 	// 	fmt.Println("Transaction échouée. Pas assez d'or.")
 	// }
 }
+
