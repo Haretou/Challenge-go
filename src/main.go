@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
-	"Combat"
+	cb "github.com/Haretou/Challenge-go/Combat"
 )
 
 func main() {
@@ -40,7 +40,7 @@ func Lore() {
 	fmt.Println("Bienvenue dans le monde Foresta")
 	time.Sleep(time.Second * 1)
 	fmt.Println("Le diable Abdela envoilla ses soldats à la conquête du pays.")
-	time.Sleep(time.Second * 1)
+	time.Sleep(time.Second *1 )
 	fmt.Println("Un jour un jeune homme aux nom Noobie entendit une voie qui lui dit")
 	time.Sleep(time.Second * 1)
 	fmt.Println("tu es l'héritier qui sauvera le pays et triomphera du diable. ")
@@ -61,7 +61,7 @@ func play() {
 		fmt.Scanln(&choice)
 		switch choice {
 		case 1:
-			Combat.FightRound()
+			cb.FightRound()
 		case 2:
 			Market()
 		case 3:
